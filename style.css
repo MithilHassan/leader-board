@@ -1,0 +1,80 @@
+body {
+  background: #f3f1ff;
+}
+header,
+main {
+  margin-bottom: 50px;
+}
+nav {
+  background-color: #562eff;
+}
+/*========= Player Section Css =========*/
+
+.section-heading {
+  color: #562eff;
+  margin: 50px 0px;
+}
+.player img {
+  height: 56px;
+}
+
+/*======= Blog Section Css ========== */
+
+.blog {
+  display: flex;
+  margin-bottom: 50px;
+}
+.blog-img,
+.blog-details {
+  width: 45%;
+}
+.blog-details {
+  padding: 0 20px;
+}
+.blog-details h4 {
+  margin: 10px 0px;
+}
+.blog-details p {
+  font-size: 1.25rem;
+}
+p span {
+  color: #562eff;
+}
+
+/* =========== Course Section Css ============*/
+.course-img {
+  width: 100%;
+}
+.course-rating,
+.course-duration {
+  display: flex;
+  align-items: center;
+}
+.course-duration {
+  background-color: #ffe4e8;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.course-rating p,
+.course-duration p {
+  margin: 0 5px;
+}
+
+.course-duration img {
+  height: 20px;
+}
+
+/*============ Media Query========== */
+
+@media (max-width: 576px) {
+  header {
+    margin: 0;
+  }
+  .blog {
+    flex-direction: column;
+  }
+  .blog-img,
+  .blog-details {
+    width: 100%;
+  }
+}
